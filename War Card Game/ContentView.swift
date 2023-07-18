@@ -36,13 +36,11 @@ struct ContentView: View {
                 }
                 Spacer()
                 
-                
                 Button {
                     deal()
                 } label: {
                     Image("button")
                 }
-
                 
                 Spacer()
                 HStack {
@@ -93,7 +91,6 @@ struct ContentView: View {
             }
         else {
             // Tie
-            
             cpuCardValue == playerCardValue
             playerScore -= 1
             cpuScore -= 1
